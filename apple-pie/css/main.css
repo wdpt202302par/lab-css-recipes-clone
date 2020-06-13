@@ -1,0 +1,67 @@
+body {
+  margin:0; /* On annule la marge de 8px par défaut */
+
+  font:400 130%/1.5 Helvetica, sans-serif; /* 130% de 16px, interlignage 1.5, police sans serig */
+
+  padding-bottom:5em; /* Pour laisser un peu de marge en bas de page */
+}
+
+/* Une classe pour "centrer" au milieu de la page (sans prendre toute la largeur) */
+.container {
+  width:70%;
+  margin-left:auto;margin-right:auto; /* technique de centrage horizontal d'un block */
+}
+
+section h2 {
+  font-weight:normal; /* On annule la graisse par défaut */
+
+  border-top:3px solid #bbb; padding-top:1em;
+}
+
+h1 {
+  /*
+  Hero heading
+  */
+
+  margin-top:0;margin-bottom:0;
+  font-weight:normal;
+  
+  font-size:300%;
+  
+  background:url("../images/apple-pie.jpg") center no-repeat; background-size:cover;
+  color:white;
+
+  padding-top:250px;padding-bottom:250px; /* pseudo-centrage vertical */
+  text-align:center;
+}
+
+header p {
+  margin-top:2.5em;
+}
+
+/*
+ info images
+*/
+
+header img,
+#ingredients img {
+  display:block; margin-left:auto;margin-right:auto; /* centrage horizontal */
+  margin-top:2em;margin-bottom:2em;
+}
+header img {height:4em;}
+#ingredients img {height:5em;}
+
+/*
+ list styling (BONUS)
+*/
+
+/* #ingredients ul,
+#directions ol {list-style:none; padding-left:0;}
+
+#ingredients li:before {content:"- ";}
+
+#directions ol {counter-reset:steps;}
+#directions li:before {
+  content:counter(steps, decimal) ") ";
+  counter-increment:steps;
+} */
