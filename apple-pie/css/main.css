@@ -55,7 +55,7 @@ header img {height:4em;}
  list styling (BONUS)
 */
 
-/* #ingredients ul,
+#ingredients ul,
 #directions ol {list-style:none; padding-left:0;}
 
 #ingredients li:before {content:"- ";}
@@ -64,4 +64,4 @@ header img {height:4em;}
 #directions li:before {
   content:counter(steps, decimal) ") ";
   counter-increment:steps;
-} */
+}
